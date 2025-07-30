@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara Mendapatkan Uang dari Uranus Studio dan Uranustify</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0f172a;
+            color: #e2e8f0;
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(90deg, #a855f7, #3b82f6, #ec4899);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: gradient 8s ease infinite;
+            background-size: 400% 400%;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+        }
+        
+        .card-gradient {
+            background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(59, 130, 246, 0.1));
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .card-gradient:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(168, 85, 247, 0.2);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(90deg, #a855f7, #3b82f6);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(168, 85, 247, 0.4);
+        }
+        
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+        
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.6s ease;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="gradient-bg">
+    <!-- Navbar -->
+    <nav class="fixed w-full px-6 py-4 z-50 backdrop-blur-sm border-b border-gray-800">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 rounded-full bg-gradient-to-r from-purple-600 to-blue-500 flex items-center justify-center">
+                    <i class="fas fa-meteor text-white text-lg"></i>
+                </div>
+                <span class="text-xl font-bold gradient-text">Uranus</span>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#beranda" class="text-gray-300 hover:text-white transition">Beranda</a>
+                <a href="#cara-kerja" class="text-gray-300 hover:text-white transition">Cara Kerja</a>
+                <a href="#fitur" class="text-gray-300 hover:text-white transition">Fitur</a>
+                <a href="#testimoni" class="text-gray-300 hover:text-white transition">Testimoni</a>
+                <a href="#faq" class="text-gray-300 hover:text-white transition">FAQ</a>
+            </div>
+            <button class="btn-primary px-6 py-2 rounded-full font-medium text-white md:block hidden">
+                Mulai Sekarang
+            </button>
+            <button class="md:hidden text-gray-300">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="min-h-screen flex items-center pt-20 pb-16 px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div class="fade-in">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                    <span class="gradient-text">Cara Mendapatkan Uang</span><br>
+                    dari Uranus Studio<br>dan Uranustify
+                </h1>
+                <p class="text-gray-300 text-lg mb-8 leading-relaxed">
+                    Temukan rahasia menghasilkan pendapatan pasif dengan memanfaatkan platform kreatif Uranus. Mulai dari Rp0 dan dapatkan penghasilan hingga puluhan juta per bulan.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <button class="btn-primary px-8 py-3 rounded-full font-medium text-white">
+                        Gabung Sekarang <i class="fas fa-arrow-right ml-2"></i>
+                    </button>
+                    <button class="px-8 py-3 rounded-full font-medium border border-purple-600 text-purple-400 hover:bg-purple-900 hover:bg-opacity-20 transition">
+                        Pelajari Lebih Lanjut
+                    </button>
+                </div>
+                <div class="mt-10 flex items-center space-x-4">
+                    <div class="flex -space-x-2">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4c2a56a5-19b1-436a-968f-d6e07fb60f89.png" alt="Profil pengguna 1 dengan senyum" class="w-10 h-10 rounded-full border-2 border-purple-500">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/24d364f4-e205-4904-8e85-7ffe6305605f.png" alt="Profil pengguna 2 dengan kacamata" class="w-10 h-10 rounded-full border-2 border-purple-500">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8d79e1b3-edd6-4694-b5ee-f9a2688315d5.png" alt="Profil pengguna 3 dengan latar belakang biru" class="w-10 h-10 rounded-full border-2 border-purple-500">
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-400">Bergabung bersama <span class="text-purple-400 font-medium">10.000+ kreator</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="animate-float fade-in">
+                <div class="relative">
+                    <div class="absolute -top-10 -left-10 w-32 h-32 rounded-full bg-purple-500 opacity-20 blur-xl"></div>
+                    <div class="absolute -bottom-10 -right-10 w-32 h-32 rounded-full bg-blue-500 opacity-20 blur-xl"></div>
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/378f45f8-0fc1-40d8-9795-4b04ca120feb.png" alt="Ilustrasi kreator konten sedang bekerja di Uranus Studio dengan laptop dan peralatan kreatif" class="relative z-10 rounded-2xl shadow-2xl border border-gray-800">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cara Kerja -->
+    <section id="cara-kerja" class="py-20 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4"><span class="gradient-text">Cara Mendapatkan Uang</span> dengan Mudah</h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">Beberapa cara yang bisa Anda lakukan untuk menghasilkan uang melalui platform Uranus Studio dan Uranustify.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Cara 1 -->
+                <div class="card-gradient p-8 rounded-2xl fade-in" style="transition-delay: 0.1s">
+                    <div class="w-14 h-14 rounded-full bg-purple-900 bg-opacity-50 flex items-center justify-center mb-6">
+                        <i class="fas fa-music text-purple-400 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Royalty Musik</h3>
+                    <p class="text-gray-400 mb-6">Unggah karya musik Anda ke Uranustify dan dapatkan royalty setiap kali musik Anda didengarkan oleh pengguna.</p>
+                    <div class="flex items-center text-purple-400">
+                        <span class="font-medium">Pelajari lebih lanjut</span>
+                        <i class="fas fa-chevron-right ml-2 text-sm"></i>
+                    </div>
+                </div>
+                
+                <!-- Cara 2 -->
+                <div class="card-gradient p-8 rounded-2xl fade-in" style="transition-delay: 0.2s">
+                    <div class="w-14 h-14 rounded-full bg-blue-900 bg-opacity-50 flex items-center justify-center mb-6">
+                        <i class="fas fa-film text-blue-400 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Konten Eksklusif</h3>
+                    <p class="text-gray-400 mb-6">Buat konten eksklusif di Uranus Studio dan dapatkan pendapatan dari subscriber yang membayar untuk mengakses konten premium Anda.</p>
+                    <div class="flex items-center text-blue-400">
+                        <span class="font-medium">Pelajari lebih lanjut</span>
+                        <i class="fas fa-chevron-right ml-2 text-sm"></i>
+                    </div>
+                </div>
+                
+                <!-- Cara 3 -->
+                <div class="card-gradient p-8 rounded-2xl fade-in" style="transition-delay: 0.3s">
+                    <div class="w-14 h-14 rounded-full bg-pink-900 bg-opacity-50 flex items-center justify-center mb-6">
+                        <i class="fas fa-store text-pink-400 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Merchandise</h3>
+                    <p class="text-gray-400 mb-6">Jual merchandise resmi melalui platform kami tanpa perlu repot mengelola persediaan atau pengiriman.</p>
+                    <div class="flex items-center text-pink-400">
+                        <span class="font-medium">Pelajari lebih lanjut</span>
+                        <i class="fas fa-chevron-right ml-2 text-sm"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fitur Unggulan -->
+    <section id="fitur" class="py-20 px-6 bg-gradient-to-b from-gray-900 to-gray-900">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Fitur <span class="gradient-text">Unggulan Kami</span></h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">Apa yang membuat Uranus Studio dan Uranustify berbeda dari platform lainnya.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+                <div class="fade-in">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/043c951a-3164-4b0d-9882-1c2221c14cf8.png" alt="Dashboard Uranustify yang menampilkan analitik pendapatan dan statistik pemutaran" class="rounded-2xl shadow-xl border border-gray-800">
+                </div>
+                <div class="fade-in" style="transition-delay: 0.1s">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 rounded-full bg-purple-900 bg-opacity-50 flex items-center justify-center mr-4">
+                            <i class="fas fa-chart-line text-purple-400"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">Analitik Real-time</h3>
+                    </div>
+                    <p class="text-gray-400 mb-6">Pantau perkembangan penghasilan Anda dengan dashboard analitik canggih yang menampilkan data real-time dari semua platform.</p>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-purple-400 mt-1 mr-2"></i>
+                            <span>Statistik pemutaran per lagu dan per negara</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-purple-400 mt-1 mr-2"></i>
+                            <span>Estimasi pendapatan yang akurat</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-purple-400 mt-1 mr-2"></i>
+                            <span>Prediksi pertumbuhan pendapatan</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="fade-in order-2 md:order-1" style="transition-delay: 0.1s">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 rounded-full bg-blue-900 bg-opacity-50 flex items-center justify-center mr-4">
+                            <i class="fas fa-money-bill-wave text-blue-400"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">Pembayaran Cepat</h3>
+                    </div>
+                    <p class="text-gray-400 mb-6">Nikmati pembayaran tepat waktu dengan berbagai metode transfer yang mendukung bank lokal maupun internasional.</p>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                            <span>Pencairan mulai dari Rp100.000</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                            <span>Proses pencairan maksimal 3 hari kerja</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                            <span>Laporan pajak otomatis untuk penghasilan besar</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fade-in order-1 md:order-2">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/58e35c45-522a-4d73-839d-470c9280c386.png" alt="Antarmuka pembayaran Uranustify yang menunjukkan berbagai metode transfer dan riwayat transaksi" class="rounded-2xl shadow-xl border border-gray-800">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni -->
+    <section id="testimoni" class="py-20 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Kata <span class="gradient-text">Para Kreator</span></h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">Apa kata mereka yang sudah berhasil mendapatkan penghasilan dari Uranus Studio dan Uranustify.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Testi 1 -->
+                <div class="card-gradient p-8 rounded-2xl fade-in" style="transition-delay: 0.1s">
+                    <div class="flex items-center mb-6">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5379ba15-7ed3-4e06-a9d6-7fcf21a0f28b.png" alt="Profil Sarah, musisi independen" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Sarah Wijaya</h4>
+                            <p class="text-gray-400 text-sm">Musisi Independen</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6">"Dulu saya hanya upload ke YouTube, tapi sejak gabung Uranustify penghasilan saya meningkat 3x lipat. Sistem royalty-nya sangat fair!"</p>
+                    <div class="flex items-center">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                </div>
+                
+                <!-- Testi 2 -->
+                <div class="card-gradient p-8 rounded-2xl fade-in" style="transition-delay: 0.2s">
+                    <div class="flex items-center mb-6">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/9905d908-cd63-4fd1-8839-100176abfc11.png" alt="Profil Andre, konten kreator" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Andre Kurniawan</h4>
+                            <p class="text-gray-400 text-sm">Konten Kreator</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6">"Uranus Studio membantu saya monetisasi video tutorial musik saya. Sekarang saya bisa fokus buat konten karena penghasilan sudah stabil."</p>
+                    <div class="flex items-center">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star-half-alt text-yellow-400"></i>
+                    </div>
+                </div>
+                
+                <!-- Testi 3 -->
+                <div class="card-gradient p-8 rounded-2xl fade-in" style="transition-delay: 0.3s">
+                    <div class="flex items-center mb-6">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b4b9002b-2ff0-49ab-804b-e88901f3fb37.png" alt="Profil Maya, produser musik" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Maya Putri</h4>
+                            <p class="text-gray-400 text-sm">Produser Musik</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6">"Sebagai label kecil, Uranustify memberikan kesempatan yang sama untuk bersaing di pasar global. Royalti bulanan kami konsisten meningkat."</p>
+                    <div class="flex items-center">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 px-6 bg-gradient-to-r from-purple-900 to-blue-900">
+        <div class="max-w-7xl mx-auto text-center">
+            <div class="max-w-3xl mx-auto fade-in">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Siap Mulai Menghasilkan Uang dari Karya Anda?</h2>
+                <p class="text-gray-300 mb-10">Bergabunglah dengan ribuan kreator lainnya dan mulailah monetisasi karya Anda hari ini. Gratis untuk mendaftar dan tidak ada biaya tersembunyi.</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <button class="btn-primary px-8 py-3 rounded-full font-medium text-white">
+                        Daftar Sekarang <i class="fas fa-arrow-right ml-2"></i>
+                    </button>
+                    <button class="px-8 py-3 rounded-full font-medium bg-white bg-opacity-10 text-white hover:bg-opacity-20 transition">
+                        Lihat Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Pertanyaan <span class="gradient-text">yang Sering Diajukan</span></h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">Temukan jawaban atas pertanyaan umum seputar Uranus Studio dan Uranustify.</p>
+            </div>
+            
+            <div class="space-y-6">
+                <!-- FAQ 1 -->
+                <div class="card-gradient p-6 rounded-xl fade-in" style="transition-delay: 0.1s">
+                    <button class="faq-toggle flex justify-between items-center w-full">
+                        <h3 class="text-lg font-bold text-left">Berapa persen royalty yang didapatkan di Uranustify?</h3>
+                        <i class="fas fa-plus text-purple-400"></i>
+                    </button>
+                    <div class="faq-content hidden mt-4 text-gray-400">
+                        <p>Kami menawarkan royalty hingga 70% dari pendapatan bersih untuk kreator musik di Uranustify. Persentase tepatnya tergantung pada paket distribusi yang Anda pilih dan volume streaming karya Anda.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 2 -->
+                <div class="card-gradient p-6 rounded-xl fade-in" style="transition-delay: 0.2s">
+                    <button class="faq-toggle flex justify-between items-center w-full">
+                        <h3 class="text-lg font-bold text-left">Berapa minimal pencairan di Uranus Studio?</h3>
+                        <i class="fas fa-plus text-blue-400"></i>
+                    </button>
+                    <div class="faq-content hidden mt-4 text-gray-400">
+                        <p>Anda bisa mencairkan penghasilan mulai dari Rp100.000 untuk metode transfer bank lokal. Proses pencairan biasanya membutuhkan waktu 1-3 hari kerja setelah permintaan diajukan.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 3 -->
+                <div class="card-gradient p-6 rounded-xl fade-in" style="transition-delay: 0.3s">
+                    <button class="faq-toggle flex justify-between items-center w-full">
+                        <h3 class="text-lg font-bold text-left">Apakah ada biaya pendaftaran atau langganan?</h3>
+                        <i class="fas fa-plus text-pink-400"></i>
+                    </button>
+                    <div class="faq-content hidden mt-4 text-gray-400">
+                        <p>Tidak! Pendaftaran di Uranus Studio dan Uranustify sepenuhnya gratis. Kami hanya memotong persentase kecil dari pendapatan Anda saat Anda sudah mulai menghasilkan uang.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 4 -->
+                <div class="card-gradient p-6 rounded-xl fade-in" style="transition-delay: 0.4s">
+                    <button class="faq-toggle flex justify-between items-center w-full">
+                        <h3 class="text-lg font-bold text-left">Konten seperti apa yang bisa dimonetisasi?</h3>
+                        <i class="fas fa-plus text-purple-400"></i>
+                    </button>
+                    <div class="faq-content hidden mt-4 text-gray-400">
+                        <p>Kami mendukung berbagai jenis konten kreatif termasuk musik, podcast, video tutorial, konten edukasi, dan karya seni digital. Syarat utamanya adalah konten harus original dan tidak melanggar hak cipta.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pt-20 pb-10 px-6 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-12 mb-16">
+                <div>
+                    <div class="flex items-center space-x-2 mb-6">
+                        <div class="w-10 h-10 rounded-full bg-gradient-to-r from-purple-600 to-blue-500 flex items-center justify-center">
+                            <i class="fas fa-meteor text-white text-lg"></i>
+                        </div>
+                        <span class="text-xl font-bold gradient-text">Uranus</span>
+                    </div>
+                    <p class="text-gray-400 mb-6">Platform terdepan untuk kreator menghasilkan uang dari karya mereka.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-youtube text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-tiktok text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-6">Produk</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Uranus Studio</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Uranustify</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Uranus Merch</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Uranus Analytics</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-6">Sumber Daya</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Dokumentasi</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Komunitas</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Status Server</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-6">Perusahaan</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Tentang Kami</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Karir</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Kebijakan Privasi</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Syarat & Ketentuan</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2023 Uranus Creative. Semua hak dilindungi.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white text-sm transition">Bahasa Indonesia</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm transition">English</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Animasi scroll fade-in
+        const fadeElements = document.querySelectorAll('.fade-in');
+        
+        const fadeInOnScroll = () => {
+            fadeElements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (elementTop < windowHeight - 100) {
+                    element.classList.add('visible');
+                }
+            });
+        };
+        
+        window.addEventListener('load', fadeInOnScroll);
+        window.addEventListener('scroll', fadeInOnScroll);
+        
+        // FAQ toggle
+        const faqToggles = document.querySelectorAll('.faq-toggle');
+        
+        faqToggles.forEach(toggle => {
+            toggle.addEventListener('click', () => {
+                const content = toggle.parentElement.querySelector('.faq-content');
+                const icon = toggle.querySelector('i');
+                
+                content.classList.toggle('hidden');
+                icon.classList.toggle('fa-plus');
+                icon.classList.toggle('fa-minus');
+            });
+        });
+        
+        // Smooth scrolling for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
